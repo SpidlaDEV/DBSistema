@@ -15,7 +15,8 @@ if (!function_exists('ejecutarConsulta'))
 	function ejecutarConsulta($sql)
 	{
 		global $conexion;
-		return $conexion->query($sql);
+		$query = $conexion->query($sql);
+		return $query;
 	}
 	function ejecutarConsultaSimpleFila($sql)
 	{

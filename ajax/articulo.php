@@ -1,6 +1,6 @@
 <?php 
 require_once "../modelos/Articulo.php";
-
+ 
 $articulo=new Articulo();
  
 $idarticulo=isset($_POST["idarticulo"])? limpiarCadena($_POST["idarticulo"]):"";
@@ -21,7 +21,7 @@ switch ($_GET["op"]){
         else
         {
             $ext = explode(".", $_FILES["imagen"]["name"]);
-            if ($_FILES['imagen']['type'] == "image/jpg" || $_FILES['imagen']['type'] == "image/jpeg" || $_FILES['imagen']['type'] == "image/png") 
+            if ($_FILES['imagen']['type'] == "image/jpg" || $_FILES['imagen']['type'] == "image/jpeg" || $_FILES['imagen']['type'] == "image/png")
             {
                 $imagen = round(microtime(true)) . '.' . end($ext);
                 move_uploaded_file($_FILES["imagen"]["tmp_name"], "../files/articulos/" . $imagen);

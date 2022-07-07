@@ -1,5 +1,3 @@
-
-//HEADER SISTEMA
 <!DOCTYPE html>
 <html>
   <head>
@@ -35,7 +33,7 @@
       <header class="main-header">
 
         <!-- Logo -->
-        <a href="index2.html" class="logo">
+        <a href="index.php" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b>IT</b>Ventas</span>
           <!-- logo for regular state and mobile devices -->
@@ -92,7 +90,7 @@
           <ul class="sidebar-menu">
             <li class="header"></li>
             <li>
-              <a href="#">
+              <a href="desk.php">
                 <i class="fa fa-tasks"></i> <span>Escritorio</span>
               </a>
             </li>            
@@ -105,6 +103,7 @@
               <ul class="treeview-menu">
                 <li><a href="articulo.php"><i class="fa fa-circle-o"></i> Artículos</a></li>
                 <li><a href="categoria.php"><i class="fa fa-circle-o"></i> Categorías</a></li>
+                <li><a href="marca.php"><i class="fa fa-circle-o"></i> Marcas</a></li>
               </ul>
             </li>
             

@@ -51,21 +51,19 @@ require 'header.php';
                             <label>Tipo Documento:</label>
                             <select class="form-control select-picker" name="tipo_documento" id="tipo_documento" required>
                               <option value="DNI">DNI</option>
-                              <option value="RUC">RUC</option>
-                              <option value="CEDULA">CEDULA</option>
                             </select>
                           </div>
                           <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>Número Documento:</label>
-                            <input type="text" class="form-control" name="num_documento" id="num_documento" maxlength="20" placeholder="Documento">
+                            <input type="text" class="form-control" name="num_documento" id="num_documento" placeholder="Documento">
                           </div>
                           <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>Dirección:</label>
-                            <input type="text" class="form-control" name="direccion" id="direccion" maxlength="70" placeholder="Dirección">
+                            <input type="text" class="form-control" name="direccion" id="direccion" placeholder="Dirección">
                           </div>
                           <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>Teléfono:</label>
-                            <input type="text" class="form-control" name="telefono" id="telefono" maxlength="20" placeholder="Teléfono">
+                            <input type="number" class="form-control" name="telefono" id="telefono" maxlength="20" placeholder="Teléfono">
                           </div>
                           <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>Email:</label>

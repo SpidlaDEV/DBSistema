@@ -15,15 +15,15 @@ require 'header_light.php';
             <p>"Además, hay disponibles paquetes de iluminación premium que cuentan con lámparas LED más brillantes para mejorar la visibilidad nocturna", dice Ross. "Además, agregamos nuevos mecanismos de traba y elevación del capó para facilitar mucho el servicio de los tractores y aumentamos los intervalos de servicio hasta 750 horas para mejorar el tiempo de actividad. Eso significa cambios de aceite menos frecuentes y costos operativos más bajos, ya que el uso de DEF se reduce a tres por ciento del uso de combustible".</p>
             <p>Para realizar el trabajo, las 6R de estructura pequeña se pueden combinar perfectamente con los cargadores John&nbsp;Deere, otros accesorios e implementos para crear máquinas confiables, de alto rendimiento y totalmente integradas.</p>
             <p>"Estas 6R de estructura pequeña son fáciles de operar y brindan la confiabilidad, durabilidad y versatilidad en las que los clientes pueden confiar en sus operaciones", dice Ross. "Aunque son un poco más pequeños en tamaño, estos tractores aún tienen todo el rendimiento y la funcionalidad que los clientes esperan de un tractor utilitario resistente".</p>
-            <p>Para obtener más información sobre los nuevos tractores 6R de bastidor pequeño, así como sobre la línea completa de tractores de la familia 6, consulte a su distribuidor John&nbsp;Deere local o visite <a href="http://www.JohnDeere.com/">www.JohnDeere.com/ag</a>.</p>
+            <p>Para obtener más información sobre los nuevos tractores 6R de bastidor pequeño, así como sobre la línea completa de tractores de la familia 6, consulte a su distribuidor John&nbsp;Deere local o visite <a href="https://www.JohnDeere.com/" style="color: rgba(54, 124, 43, 1); text-decoration: none;">www.JohnDeere.com</a>.</p>
             <h3>Acerca de&nbsp;John&nbsp;Deere<br></h3>
-            <p>Deere&nbsp;&amp;&nbsp;Company (NYSE: DE) es líder mundial en el suministro de productos y servicios avanzados y está comprometida con el éxito de los clientes cuyo trabajo está vinculado a la tierra: aquellos que cultivan, cosechan, transforman, enriquecen y construir sobre la tierra para satisfacer la creciente necesidad mundial de alimentos, combustible, vivienda e infraestructura. Desde 1837, John&nbsp;Deere ha entregado productos innovadores de calidad superior basados ​​en una tradición de integridad. Para obtener más información, visite John&nbsp;Deere en su sitio web mundial en <a href="http://www.JohnDeere.com">www.JohnDeere.com</a>.</p>
+            <p>Deere&nbsp;&amp;&nbsp;Company (NYSE: DE) es líder mundial en el suministro de productos y servicios avanzados y está comprometida con el éxito de los clientes cuyo trabajo está vinculado a la tierra: aquellos que cultivan, cosechan, transforman, enriquecen y construir sobre la tierra para satisfacer la creciente necesidad mundial de alimentos, combustible, vivienda e infraestructura. Desde 1837, John&nbsp;Deere ha entregado productos innovadores de calidad superior basados ​​en una tradición de integridad. Para obtener más información, visite John&nbsp;Deere en su sitio web mundial en <a href="https://www.JohnDeere.com" style="color: rgba(54, 124, 43, 1); text-decoration: none;">www.JohnDeere.com</a>.</p>
         </div>
         <div class="news-release-contact">
             <h4>Contacto con los medios</h4>
             <p>Barry E. Nelson<br>Gerente, Relaciones con los medios<br>División de agricultura y césped de John&nbsp;
                 10789 S. Ridgeview Road<br>
-                Olathe, KS 66061<br>Teléfono: 913-310-8324<br>Correo electrónico: <a target="_blank" href="https://www.youtube.com/watch?v=eBGIQ7ZuuiU">NelsonBarryE@JohnDeere.com</a>
+                Olathe, KS 66061<br>Teléfono: 913-310-8324<br>Correo electrónico: <a class="a" target="_blank" href="https://www.youtube.com/watch?v=eBGIQ7ZuuiU">NelsonBarryE@JohnDeere.com</a>
         </div>
         <div class="news-release-contact">
             <h4>Contacto editorial</h4>
@@ -55,10 +55,6 @@ require 'header_light.php';
     h4, h5, h6 {
         margin-bottom: 0;
         padding-bottom: 0;
-    }
-    a {
-        color: rgba(54,124,43, 1) !important;
-        text-decoration: none;
     }
     .news-release {
         margin: 0 auto;

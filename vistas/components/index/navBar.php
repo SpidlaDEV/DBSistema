@@ -33,7 +33,7 @@
                 </ul>
             </li>
 
-            <li class="link"><a href="/contact/" title="Contacto">Contacto</a></li>
+            <li class="link"><a href="../vistas/contacto.php" title="Contacto">Contacto</a></li>
         </ul>
     </div> <!-- end of topbarnav -->
 </div> <!-- end of topbarcontainer -->

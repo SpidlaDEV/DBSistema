@@ -2,7 +2,7 @@
 //Incluímos inicialmente la conexión a la base de datos
 require "../config/Conexion.php";
  
-Class marca
+Class Marca
 {
     //Implementamos nuestro constructor
     public function __construct()
@@ -11,17 +11,17 @@ Class marca
     }
  
     //Implementamos un método para insertar registros
-    public function insertar($idmarca,$nombre,$descripcion,$condicion)
+    public function insertar($nombre,$descripcion)
     {
-        $sql="INSERT INTO marca (idmarca,nombre,descripcion,condicion)
-        VALUES ('$idmarca','$nombre','$descripcion','$condicion')";
+        $sql="INSERT INTO marca (nombre,descripcion,condicion)
+        VALUES ('$nombre','$descripcion','1')";
         return ejecutarConsulta($sql);
     }
  
     //Implementamos un método para editar registros
-    public function editar($idmarca,$nombre,$descripcion,$condicion)
+    public function editar($idmarca,$nombre,$descripcion)
     {
-        $sql="UPDATE marca SET idmarca='$idmarca',nombre='$nombre',descripcion='$descripcion',condicion='$condicion' WHERE idmarca='$idmarca'";
+        $sql="UPDATE marca SET nombre='$nombre',descripcion='$descripcion' WHERE idmarca='$idmarca'";
         return ejecutarConsulta($sql);
     }
  
@@ -49,11 +49,15 @@ Class marca
     //Implementar un método para listar los registros
     public function listar()
     {
-        $sql="SELECT a.idmarca,a.idmarca,c.nombre as marca,a.a.nombre,a.a.descripcion,a.a.condicion FROM marca a INNER JOIN marca c ON a.idmarca=c.idmarca";
-        return ejecutarConsulta($sql);   
+        $sql="SELECT a.idmarca,a.idmarca,c.nombre as marca,a.nombre,a.descripcion,a.condicion FROM marca a INNER JOIN marca c ON a.idmarca=c.idmarca";
+        return ejecutarConsulta($sql);
+    }
 
-
-
+    //Implementar un método para listar los registros y mostrar en el select
+    public function select()
+    {
+        $sql="SELECT * FROM marca where condicion=1";
+        return ejecutarConsulta($sql);
     }
  
     //Implementar un método para listar los registros activos

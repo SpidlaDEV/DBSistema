@@ -15,8 +15,8 @@
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="../public/css/_all-skins.min.css">
-    <link rel="apple-touch-icon" href="../public/img/apple-touch-icon.png">
-    <link rel="shortcut icon" href="../public/img/favicon.ico">
+    <link rel="apple-touch-icon" href="../public/img/logo.ico">
+    <link rel="shortcut icon" href="../public/img/logo.ico">
 
     <!--Datatables-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -34,12 +34,12 @@
 
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini">
-                <img src="../public/img/apple-touch-icon.png" alt="logo" width="30" style="padding-bottom: 6px;">
+                <img src="../public/img/logo.png" alt="logo" width="30" style="padding-bottom: 6px;">
                 John Deere
             </span>
             <!-- logo for regular state and mobile devices -->
             <span class="logo-lg">
-                <img src="../public/img/apple-touch-icon.png" alt="logo" width="30" style="padding-bottom: 6px;">
+                <img src="../public/img/logo.png" alt="logo" width="30" style="padding-bottom: 6px;">
                 John Deere
             </span>
         </a>
@@ -49,7 +49,7 @@
 
                 <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
-                    <a href="login.php" style="font-size: 15px; text-decoration: none; color: black;">
+                    <a href="../vistas/login.php" style="font-size: 15px; text-decoration: none; color: black;">
                         <span class="hidden-xs">Iniciar Sesión</span>
                     </a>
                 </li>

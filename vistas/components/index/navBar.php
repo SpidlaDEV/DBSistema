@@ -44,47 +44,14 @@
             <li class="link"><a title="Equipamiento Nuevo">Equipamiento Nuevo</a>
                 <ul>
                     <li class="link"><a href="../vistas/Agricultura.php" title="Agricultural">Agricultura</a></li>
-                    <li class="link"><a href="../vistas/Residencial.php" title="Residential">Residencial</a></li>
+                    <li class="link"><a href="../vistas/Jardin.php" title="Equipos de Jardín">Equipos de Jardín</a></li>
                 </ul>
             </li>
 
-            <li class="link"><a href="/used-equipment/" title="Equipamiento Usado">Equipamiento Usado </a></li>
+            <li class="link"><a href="../vistas/used-equipment.php" title="Equipamiento Usado">Equipamiento Usado </a></li>
 
-            <li class="link"><a href="/#" title="Otros Productos">Otros Productos</a></li>
+            <li class="link"><a href="../vistas/otros-productos.php" title="Otros Productos">Otros Productos</a></li>
 
-            <li class="link"><a href="/parts/" title="Parts">Partes </a>
-                <ul>
-                    <li class="link"><a href="http://www.deere.com/en_US/parts/parts_by_industry/ag/agricultural_parts.page?" title="Ag Parts" target="_blank">Ag Parts</a></li>
-                    <li class="link"><a href="http://www.deere.com/en_US/parts/parts_by_industry/commercial/commercial.page?" title="Commercial Parts" target="_blank">Commercial Parts</a></li>
-                    <li class="link"><a href="http://www.deere.com/en_US/parts/parts_by_industry/residential/residential_parts.page?" title="Residential Parts" target="_blank">Residential Parts</a></li>
-                    <li class="link"><a href="/parts/valley-irrigation-parts/" title="Valley Irrigation Parts (Three Rivers, MI Only)">Valley Irrigation Parts (Three Rivers, MI Only)</a></li>
-                    <li class="link"><a href="/parts/parts-drop-locations/" title="Parts Drop Locations">Parts Drop Locations</a></li>
-                </ul>
-            </li>
-
-            <li class="link"><a href="/#" title="Servicios">Servicios </a>
-                <ul>
-                    <li class="link"><a href="/service/ag-service-departments/" title="Ag Service Departments">Ag
-                            Service Departments</a></li>
-                    <li class="link"><a href="/service/turf-service-department/" title="Turf Service Department">Turf
-                            Service Department</a></li>
-                    <li class="link"><a href="/service/valley-irrigation-service-dept./"
-                                        title="Valley Irrigation Service Dept. (Three Rivers, MI Only)">Valley
-                            Irrigation Service Dept. (Three Rivers, MI Only)</a></li>
-                    <li class="link"><a href="/service/mobile-apps/" title="Mobile Apps">Mobile Apps</a></li>
-                    <li class="link"><a href="/service/schedule-appointment/" title="Schedule Appointment">Schedule
-                            Appointment</a></li>
-                    <li class="link"><a href="/service/ag-service-programs-2/" title="AG Service Programs">AG Service
-                            Programs</a></li>
-                    <li class="link"><a href="/service/turf-service-programs/" title="Turf Service Programs">Turf
-                            Service Programs</a></li>
-                    <li class="link"><a href="/service/skid-steer-service-programs/"
-                                        title="Skid Steer Service Programs">Skid Steer Service Programs</a></li>
-                </ul>
-            </li>
-
-            <li class="link"><a href="http://id5eservices.adp-id.net:30200/eservices5001" title="E-Services"
-                                target="_blank">E-Services </a></li>
             <li class="link"><a href="../vistas/drive-green-events.php" title="Drive Green Events">Drive Green Events </a></li>
         </ul>
     </nav>

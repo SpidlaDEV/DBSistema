@@ -26,22 +26,22 @@ switch ($_GET["op"]){
         }
         if (empty($idmarca)){
             $rspta=$marca->insertar($idmarca,$nombre,$descripcion,$condicion);
-            echo $rspta ? "Artículo registrado" : "Artículo no se pudo registrar";
+            echo $rspta ? "Marca registrado" : "Marca no se pudo registrar";
         }
         else {
             $rspta=$marca->editar($idmarca,$nombre,$descripcion,$condicion);
-            echo $rspta ? "Artículo actualizado" : "Artículo no se pudo actualizar";
+            echo $rspta ? "Marca actualizado" : "Marca no se pudo actualizar";
         }
     break;
  
     case 'desactivar':
         $rspta=$marca->desactivar($idmarca);
-        echo $rspta ? "Artículo Desactivado" : "Artículo no se puede desactivar";
+        echo $rspta ? "Marca Desactivado" : "Marca no se puede desactivar";
     break;
  
     case 'activar':
         $rspta=$marca->activar($idmarca);
-        echo $rspta ? "Artículo activado" : "Artículo no se puede activar";
+        echo $rspta ? "Marca activado" : "Marca no se puede activar";
     break;
  
     case 'mostrar':
@@ -59,14 +59,11 @@ switch ($_GET["op"]){
             $data[]=array(
                 "0"=>($reg->condicion)?'<button class="btn btn-warning" onclick="mostrar('.$reg->idmarca.')"><i class="fa fa-pencil"></i></button>'.
                     ' <button class="btn btn-danger" onclick="desactivar('.$reg->idmarca.')"><i class="fa fa-close"></i></button>':
-                    '<button class="btn btn-warning" onclick="mostrar('.$reg->idmarca.')"><i class="fa fa-pencil"></i></button>'.
+                    ' <button class="btn btn-warning" onclick="mostrar('.$reg->idmarca.')"><i class="fa fa-pencil"></i></button>'.
                     ' <button class="btn btn-primary" onclick="activar('.$reg->idmarca.')"><i class="fa fa-check"></i></button>',
                 "1"=>$reg->nombre,
-                "2"=>$reg->marca,
-                "3"=>$reg->codigo,
-                "4"=>$reg->stock,
-                "5"=>"<img src='../files/marcas/".$reg->condicion."' height='50px' width='50px' >",
-                "6"=>($reg->condicion)?'<span class="label bg-green">Activado</span>':
+                "2"=>$reg->descripcion,
+                "3"=>($reg->condicion)?'<span class="label bg-green">Activado</span>':
                 '<span class="label bg-red">Desactivado</span>'
                 );
         }

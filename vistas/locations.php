@@ -22,8 +22,8 @@ require 'footer.php';
     var sw = document.body.clientWidth,
         bp = 550,
         $map = $('.map');
-    var lugarFijo = "https://maps.google.com/maps/api/staticmap?center=40.440625,-79.995886&zoom=13&markers=40.440625,-79.995886&size=640x320&sensor=true";
-    var embed = '<iframe width="100%" height="620" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=pittsburgh,+pa&amp;aq=&amp;sll=38.003385,-79.420925&amp;sspn=5.54782,11.612549&amp;ie=UTF8&amp;hq=&amp;hnear=Pittsburgh,+Allegheny,+Pennsylvania&amp;t=m&amp;ll=40.440676,-79.995918&amp;spn=0.117583,0.336113&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>';
+    var lugarFijo = "https://goo.gl/maps/xBDUf6h7bDMi9DUr8";
+    var embed = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4713.6144825200945!2d-60.43715054703782!3d-26.785744016777073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94412d1c14ba7d7b%3A0x3f41780d9ada61c!2sDerka%20y%20Vargas!5e0!3m2!1ses-419!2sar!4v1657755370213!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
 
     function buildMap() {
         if (sw > bp) { //If Large Screen

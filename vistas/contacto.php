@@ -32,9 +32,6 @@ require 'header_light.php';
 </div>
 
 <script>
-    function urlredderit () {
-        re
-    }
 </script>
 
 <style lang="css">

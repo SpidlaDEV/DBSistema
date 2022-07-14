@@ -21,7 +21,8 @@ require 'header.php';
                         <table id="tbllistado" class="table table-striped table-bordered table-condensed table-hover">
                           <thead>
                             <th>Opciones</th>
-                            <th>Nombre</th>
+                            <th>Modelo</th>
+                            <th>Marca</th>
                             <th>Categoría</th>
                             <th>Código</th>
                             <th>Stock</th>
@@ -32,8 +33,9 @@ require 'header.php';
                           </tbody>
                           <tfoot>
                             <th>Opciones</th>
-                            <th>Nombre</th>
+                            <th>Modelo</th>
                             <th>Categoría</th>
+                            <th>Marca</th>
                             <th>Código</th>
                             <th>Stock</th>
                             <th>Imagen</th>
@@ -44,9 +46,17 @@ require 'header.php';
                     <div class="panel-body" id="formularioregistros">
                         <form name="formulario" id="formulario" method="POST">
                           <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <label>Nombre(*):</label>
+                            <label>Modelo(*):</label>
                             <input type="hidden" name="idarticulo" id="idarticulo">
                             <input type="text" class="form-control" name="nombre" id="nombre" maxlength="100" placeholder="Nombre" required>
+                          </div>
+                          <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <label>Descripción:</label>
+                            <input type="text" class="form-control" name="descripcion" id="descripcion" maxlength="256" placeholder="Descripción">
+                          </div>
+                          <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <label>Marca(*):</label>
+                            <select id="idmarca" name="idmarca" class="form-control selectpicker" data-live-search="true" required></select>
                           </div>
                           <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>Categoría(*):</label>
@@ -55,10 +65,6 @@ require 'header.php';
                           <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>Stock(*):</label>
                             <input type="number" class="form-control" name="stock" id="stock" required>
-                          </div>
-                          <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <label>Descripción:</label>
-                            <input type="text" class="form-control" name="descripcion" id="descripcion" maxlength="256" placeholder="Descripción">
                           </div>
                           <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>Imagen:</label>

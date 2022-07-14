@@ -4,154 +4,151 @@ require 'header_light.php';
 ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <div class="agricultura" style="text-align: center;">
+    <h1 class="text-bold" style="font-size: 150px; color: #367c2b">John Deere <span class="font-light" style="color: #000000">Agricultura</span></h1>
+    <hr style="height:10px; border:none; color:#333; background-color:#333; margin: 0 50px 0 50px; ">
     <section class="cards" style="margin: 30px;">
         <?php
             $tractores = [
-                    ['6100E',               'John Deere 4045T PowerTech™','97 hp',  '24A / 12R PowrReverser™ Plus',          '540/1000 rpm',  'Centro abierto, 72,3 L/min',      'Cat II,  3420 Kg  a 610 mm.' ],
-                    ['6110E',               'John Deere 4045T PowerTech™','106 hp', '24A / 12R PowrReverser™ Plus',          '540/1000 rpm',  'Centro abierto, 72,3 L/min',      'Cat II,  3420 Kg  a 610 mm.' ],
-                    ['6125E',               'John Deere 4045H PowerTech™','123 hp', '24A / 12R PowrReverser™ Plus',          '540/1000 rpm',  'Centro abierto, 72,3 L/min',      'Cat II,  3420 Kg  a 610 mm.' ],
-                    ['6115J',               'John Deere PowerTech™ 4045T','115 hp', 'PowrQuad™ 16x16 o SyncroPlus de 12x4',  '540/1000 rpm',  'De centro cerrado de 100 L/min',  'Cat II,  2500 kgf a 610 mm.' ],
-                    ['6135J',               'John Deere PowerTech™ 6068T','135 hp', 'PowrQuad™ 16/16',                       '540/1000 rpm',  'De centro cerrado de 100 L/min',  'Cat II,  2500 kgf a 610 mm.' ],
-                    ['Nuevo modelo 6135M',  'John Deere PowerTech™ 6068T','135 hp', 'CommandQuad™ 20x20',                    '540/1000 rpm',  'De centro cerrado de 110 L/min',  'Cat II,  2550 kgf a 610 mm.' ],
-                    ['6150J',               'John Deere PowerTech™ 6068T','150 hp', 'PowrQuad 16/16',                        '540/1000 rpm',  'De centro cerrado de 100 L/min',  'Cat III, 3580 kgf a 610 mm.' ],
+                    ['6100E',               'John Deere 4045T PowerTech™','97 hp',  '24A / 12R PowrReverser™ Plus',          '540/1000 rpm',  'Centro abierto, 72,3 L/min',      'Cat II,  3420 Kg  a 610 mm.', '../public/images/tractor/6100e.webp'],
+                    ['6110E',               'John Deere 4045T PowerTech™','106 hp', '24A / 12R PowrReverser™ Plus',          '540/1000 rpm',  'Centro abierto, 72,3 L/min',      'Cat II,  3420 Kg  a 610 mm.', '../public/images/tractor/6110e.jpg' ],
+                    ['6125E',               'John Deere 4045H PowerTech™','123 hp', '24A / 12R PowrReverser™ Plus',          '540/1000 rpm',  'Centro abierto, 72,3 L/min',      'Cat II,  3420 Kg  a 610 mm.', '../public/images/tractor/6125e.webp' ],
+                    ['6115J',               'John Deere PowerTech™ 4045T','115 hp', 'PowrQuad™ 16x16 o SyncroPlus de 12x4',  '540/1000 rpm',  'De centro cerrado de 100 L/min',  'Cat II,  2500 kgf a 610 mm.', '../public/images/tractor/6115j.webp' ],
+                    ['6135J',               'John Deere PowerTech™ 6068T','135 hp', 'PowrQuad™ 16/16',                       '540/1000 rpm',  'De centro cerrado de 100 L/min',  'Cat II,  2500 kgf a 610 mm.', '../public/images/tractor/6135j.webp' ],
+                    ['Nuevo modelo 6135M',  'John Deere PowerTech™ 6068T','135 hp', 'CommandQuad™ 20x20',                    '540/1000 rpm',  'De centro cerrado de 110 L/min',  'Cat II,  2550 kgf a 610 mm.', '../public/images/tractor/6135m.webp' ],
+                    ['6150J',               'John Deere PowerTech™ 6068T','150 hp', 'PowrQuad 16/16',                        '540/1000 rpm',  'De centro cerrado de 100 L/min',  'Cat III, 3580 kgf a 610 mm.', '../public/images/tractor/6150j.jpg' ],
             ];
 
             foreach($tractores as $item){ ?>
                 <article class="card">
-                    <picture class="thumbnail">
-                        <img class="category__01" src="https://abbeyjfitzgerald.com/wp-content/uploads/2018/01/cloud.svg"
-                             alt=""/>
+                    <picture>
+                        <img class="category__01" height="160" alt="" src="<?= $item[7] ?>" />
                     </picture>
                     <div class="card-content">
-                        <p class="category category__01"><span><?=$item[0]?></span></p>
-                        <h2><span><?=$item[1]?></span></h2>
-                        <p><span><?=$item[6]?></span></p>
+                        <p class="category category__01"><span><?=$item[2]?></span></p>
+                        <h2 class="text-bold">John Deere <span><?=$item[0]?></span></h2>
+                        <table>
+                            <tr>
+                                <th>Motor</th>
+                                <th><?=$item[1]?></th>
+                            </tr>
+                            <tr>
+                                <th>Transmisión</th>
+                                <th><?=$item[3]?></th>
+                            </tr>
+                            <tr>
+                                <th>Toma de fuerza</th>
+                                <th><?=$item[4]?></th>
+                            </tr>
+                            <tr>
+                                <th>Sistema hidráulico</th>
+                                <th><?=$item[5]?></th>
+                            </tr>
+                            <tr>
+                                <th>Levante 3 puntos</th>
+                                <th><?=$item[6]?></th>
+                            </tr>
+                        </table>
                     </div><!-- .card-content -->
                     <footer>
                         <div class="post-meta">
-                            <span class="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span>
-                            <span class="comments"><i class="fa fa-comments"></i><a href="#"> 14 comments</a></span>
+
                         </div>
                     </footer>
                 </article>
             <?php } ?>
-        <!--   card 1 -->
+
+        <?php
+        $cosechadoras = [
+            ['S760', 'Motor PowerTech™ PSS de 9 L',     '320 hp', '30/35 pies (Sinfín o FlexDraper)',   '10.600 L', '116 L/seg', 'De Serie', 'Suscripción gratuita por un año', 'Opcional', 'Opcional', '-',         '../public/images/cosechadora/s760.jpg'  ],
+            ['S770', 'Motor PowerTech™ PSS de 9 L',     '373 hp', '35/40 pies (Sinfín o FlexDraper)',   '11.600 L', '135 L/sec', 'De Serie', 'Suscripción gratuita por un año', 'Opcional', 'Opcional', 'Opcional',  '../public/images/cosechadora/s770.webp' ],
+            ['S780', 'Motor PowerTech™ PSS de 13.5 L',  '473 hp', '40/45 pies (FlexDraper)',            '14.100 L', '135 L/seg', 'De Serie', 'Suscripción gratuita por un año', 'De Serie', 'Opcional', 'De Serie',  '../public/images/cosechadora/s780.jpg'  ],
+            ['S790', 'Motor PowerTech™ PSS de 13.5 L',  '543 hp', '45 pies (FlexDraper)',               '14.100 L', '135 L/seg', 'De Serie', 'Suscripción gratuita por un año', 'De Serie', 'Opcional', 'De Serie',  '../public/images/cosechadora/s790.jpg'  ],
+        ];
+
+        foreach($cosechadoras as $item){ ?>
+            <article class="card">
+                <picture>
+                    <img class="category__01" height="160" alt="" src="<?= $item[11] ?>" />
+                </picture>
+                <div class="card-content">
+                    <p class="category category__01"><span><?=$item[4]?></span></p>
+                    <h2 class="text-bold">John Deere <span><?=$item[0]?></span></h2>
+                    <table>
+                        <tr>
+                            <th>Motor</th>
+                            <th><?=$item[1]?></th>
+                        </tr>
+                        <tr>
+                            <th>Plataforma</th>
+                            <th><?=$item[3]?></th>
+                        </tr>
+                        <tr>
+                            <th>Capacidad de descarga</th>
+                            <th><?=$item[5]?></th>
+                        </tr>
+                        <tr>
+                            <th>Pilo automático</th>
+                            <th><?=$item[6]?></th>
+                        </tr>
+                        <tr>
+                            <th>JDLink</th>
+                            <th><?=$item[7]?></th>
+                        </tr>
+                        <tr>
+                            <th>Combine Advisor</th>
+                            <th><?=$item[8]?></th>
+                        </tr>
+                        <tr>
+                            <th>Activeyield</th>
+                            <th><?=$item[9]?></th>
+                        </tr>
+                        <tr>
+                            <th>Haverst Smart 2.0</th>
+                            <th><?=$item[10]?></th>
+                        </tr>
+                    </table>
+                </div><!-- .card-content -->
+            </article>
+        <?php } ?>
+
         <article class="card">
-            <picture class="thumbnail">
-                <img class="category__01" src="https://abbeyjfitzgerald.com/wp-content/uploads/2018/01/cloud.svg"
-                     alt=""/>
-            </picture>
-            <div class="card-content">
-                <p class="category category__01">Cloud Storage</p>
-                <h2>Photo Storage</h2>
-                <p>TUX re-inventing the wheel, and move the needle. Feature creep dogpile that but diversify kpis but
-                    market-facing.</p>
-            </div><!-- .card-content -->
-            <footer>
-                <div class="post-meta">
-                    <span class="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span>
-                    <span class="comments"><i class="fa fa-comments"></i><a href="#"> 14 comments</a></span>
-                </div>
-            </footer>
+            <a href="Jardin.php" style="color: #5d5e5e; text-decoration: none;">
+                <picture>
+                    <img height="160" class="category__01" src="../public/images/jardin/z355e.webp" alt=""/>
+                </picture>
+                <div class="card-content">
+                    <h2 class="text-bold">John Deere Equipos de Jardín</h2>
+                    <p class="text-bold">Mantener el césped dejó de ser un trabajo y paso a ser un pasatiempo.</p>
+                    <p>Las líneas de tractores de jardín John Deere son versátiles, ágiles y cómodos, ideales para áreas de hasta 6.000 m².</p>
+                    <p>Alta maniobrabilidad incluso en zonas de espacio limitado. Motores extremadamente potentes con una eficacia de combustible sobresaliente.</p>
+                </div><!-- .card-content -->
+                <footer>
+                    <div class="post-meta">
+                        <span>Ver más</span>
+                    </div>
+                </footer>
+            </a>
         </article>
-        <!--   card 2 -->
+
         <article class="card">
-            <picture class="thumbnail">
-                <img class="category__02" src="https://abbeyjfitzgerald.com/wp-content/uploads/2018/01/camera-1.svg"
-                     alt=""/>
-            </picture>
-            <div class="card-content">
-                <p class="category category__02">Photo Technology</p>
-                <h2>Image Formatting</h2>
-                <p>TUX re-inventing the wheel, and move the needle. Feature creep dogpile that but diversify kpis but
-                    market-facing.</p>
-            </div><!-- .card-content -->
-            <footer>
-                <div class="post-meta">
-                    <span class="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span>
-                    <span class="comments"><i class="fa fa-comments"></i><a href="#"> 11 comments</a></span>
-                </div>
-            </footer>
+            <a href="used-equipment.php" style="color: #5d5e5e; text-decoration: none;">
+                <picture>
+                    <img height="160" class="category__01" src="../public/images/used-equipment/JD3140.jpg" alt=""/>
+                </picture>
+                <div class="card-content">
+                    <h2 class="text-bold">John Deere Usados</h2>
+                    <p>John Deere también le ofrece equipos usados en bue estado que esperan una segunda vida.
+                        Tractores pequeños, medianos y grandes lo esperan para empezar a trabajar.
+                        Todos los equipos utilizados fueron reacondicionados para rendir como uno nuevo.</p>
+                </div><!-- .card-content -->
+                <footer>
+                    <div class="post-meta">
+                        <span>Ver más</span>
+                    </div>
+                </footer>
+            </a>
         </article>
-        <!--   card 3 -->
-        <article class="card">
-            <picture class="thumbnail">
-                <img class="category__03" src="https://abbeyjfitzgerald.com/wp-content/uploads/2018/01/list-1.svg"
-                     alt=""/>
-            </picture>
-            <div class="card-content">
-                <p class="category category__03">Data Management</p>
-                <h2>Document Organization</h2>
-                <p>TUX re-inventing the wheel, and move the needle. Feature creep dogpile that but diversify kpis but
-                    market-facing.TUX re-inventing the wheel, and move the needle. Feature creep dogpile that but
-                    diversify kpis but market-facing.TUX re-inventing the wheel, and move the needle. Feature creep
-                    dogpile that but diversify kpis but market-facing.</p>
-            </div><!-- .card-content -->
-            <footer>
-                <div class="post-meta">
-                    <span class="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span>
-                    <span class="comments"><i class="fa fa-comments"></i><a href="#"> 15 comments</a></span>
-                </div>
-            </footer>
-        </article>
-        <!--   card 4 -->
-        <article class="card">
-            <picture class="thumbnail">
-                <img class="category__04"
-                     src="https://abbeyjfitzgerald.com/wp-content/uploads/2017/10/browser-icon-01.svg" alt=""/>
-            </picture>
-            <div class="card-content">
-                <p class="category category__04">Product Management</p>
-                <h2>Product Requirements</h2>
-                <p>TUX re-inventing the wheel, and move the needle. Feature creep dogpile that but diversify kpis but
-                    market-facing.TUX re-inventing the wheel, and move the needle. Feature creep dogpile that but
-                    diversify kpis but market-facing.</p>
-            </div><!-- .card-content -->
-            <footer>
-                <div class="post-meta">
-                    <span class="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span>
-                    <span class="comments"><i class="fa fa-comments"></i><a href="#"> 12 comments</a></span>
-                </div>
-            </footer>
-        </article>
-        <!--   card 5 -->
-        <article class="card">
-            <picture class="thumbnail">
-                <img class="category__02" src="https://abbeyjfitzgerald.com/wp-content/uploads/2018/01/camera-1.svg"
-                     alt=""/>
-            </picture>
-            <div class="card-content">
-                <p class="category category__02">Photo Technology</p>
-                <h2>Image Techniques</h2>
-                <p>TUX re-inventing the wheel, and move the needle. Feature creep dogpile that but diversify kpis but
-                    market-facing.</p>
-            </div><!-- .card-content -->
-            <footer>
-                <div class="post-meta">
-                    <span class="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span>
-                    <span class="comments"><i class="fa fa-comments"></i><a href="#"> 18 comments</a></span>
-                </div>
-            </footer>
-        </article>
-        <!--   card 6 -->
-        <article class="card">
-            <picture class="thumbnail">
-                <img class="category__01" src="https://abbeyjfitzgerald.com/wp-content/uploads/2018/01/cloud.svg"
-                     alt=""/>
-            </picture>
-            <div class="card-content">
-                <p class="category category__01">Cloud Storage</p>
-                <h2>Image Upload</h2>
-                <p>TUX re-inventing the wheel, and move the needle. Feature creep dogpile that but diversify kpis but
-                    market-facing.</p>
-            </div><!-- .card-content -->
-            <footer>
-                <div class="post-meta">
-                    <span class="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span>
-                    <span class="comments"><i class="fa fa-comments"></i><a href="#"> 19 comments</a></span>
-                </div>
-            </footer>
-        </article>
+
     </section
 </div>
 <?php
@@ -171,6 +168,22 @@ $tractores = [
 </script>
 
 <style lang="css">
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
     .agricultura {
         a {
             text-decoration: none;
@@ -197,7 +210,7 @@ $tractores = [
 
         .cards {
             display: inline-grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 5fr)); /* see notes below */
+            grid-template-columns: repeat(auto-fill, minmax(400px, 6fr)); /* see notes below */
             grid-auto-rows: minmax(auto, auto);
             grid-gap: 2rem;
         }
@@ -207,7 +220,7 @@ $tractores = [
             /*background: red;*/
             border: 2px solid #e7e7e7;
             border-radius: 4px;
-            padding: .5rem;
+            padding: 2rem;
             -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
             box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
             display: flex;
@@ -266,18 +279,6 @@ $tractores = [
 
         .category__01 {
             background-color: #50c6db;
-        }
-
-        .category__02 {
-            background-color: #5d5e5e;
-        }
-
-        .category__03 {
-            background-color: #51bb7b;
-        }
-
-        .category__04 {
-            background-color: #f47820;
         }
 
         .post-meta {

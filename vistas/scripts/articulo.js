@@ -16,6 +16,12 @@ function init(){
                 $('#idcategoria').selectpicker('refresh');
  
     });
+    //Cargamos los items al select marca
+    $.post("../ajax/articulo.php?op=selectMarca", function(r){
+                $("#idmarca").html(r);
+                $('#idmarca').selectpicker('refresh');
+
+    });
     $("#imagenmuestra").hide();
 }
  
@@ -93,7 +99,7 @@ function guardaryeditar(e)
     e.preventDefault(); //No se activará la acción predeterminada del evento
     $("#btnGuardar").prop("disabled",true);
     var formData = new FormData($("#formulario")[0]);
- 
+
     $.ajax({
         url: "../ajax/articulo.php?op=guardaryeditar",
         type: "POST",
@@ -109,6 +115,7 @@ function guardaryeditar(e)
         }
  
     });
+
     limpiar();
 }
  
@@ -121,12 +128,14 @@ function mostrar(idarticulo)
  
         $("#idcategoria").val(data.idcategoria);
         $('#idcategoria').selectpicker('refresh');
+        $("#idmarca").val(data.idmarca);
+        $('#idmarca').selectpicker('refresh');
         $("#codigo").val(data.codigo);
         $("#nombre").val(data.nombre);
         $("#stock").val(data.stock);
         $("#descripcion").val(data.descripcion);
         $("#imagenmuestra").show();
-        $("#imagenmuestra").attr("src","../files/articulos/"+data.imagen);
+        $("#imagenmuestra").attr("src","../public/files/articulos/"+data.imagen);
         $("#imagenactual").val(data.imagen);
         $("#idarticulo").val(data.idarticulo);
         generarbarcode();

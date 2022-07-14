@@ -9,11 +9,11 @@ require 'header_light.php';
         <section class="cards" style="margin: 30px;">
             <?php
             $tractores_jardin = [
-                [ 'S100', '17,5 HP', '42" (107 cm)', 'Hidrostático',              '8,9 km/h',  '../public/images/jardin/s100.webp' ],
-                [ 'S140', '22 HP',   '48" (122 cm)', 'Hidrostático',              '8,9 km/h',  '../public/images/jardin/s140.webp' ],
-                [ 'S180', '24 HP',   '54" (137 cm)', 'Hidrostático e Heavy Duty', '8,9 km/h',  '../public/images/jardin/s180.webp' ],
-                [ 'X350', '18,5 HP', '48” (122 cm)', 'Hidrostático',              '8,9 km/h',  '../public/images/jardin/x350.webp' ],
-                [ 'X750', '24 HP',   '60” (152 cm)', 'Hidrostático',              '13,7 km/h', '../public/images/jardin/x750.webp' ]
+                [ 'S100', '17,5 HP', '42" (107 cm)', 'Hidrostático',              '8,9 km/h',  '../public/images/jardin/s100.jpg' ],
+                [ 'S140', '22 HP',   '48" (122 cm)', 'Hidrostático',              '8,9 km/h',  '../public/images/jardin/s140.jpg' ],
+                [ 'S180', '24 HP',   '54" (137 cm)', 'Hidrostático e Heavy Duty', '8,9 km/h',  '../public/images/jardin/s180.jpg' ],
+                [ 'X350', '18,5 HP', '48” (122 cm)', 'Hidrostático',              '8,9 km/h',  '../public/images/jardin/x350.jpg' ],
+                [ 'X750', '24 HP',   '60” (152 cm)', 'Hidrostático',              '13,7 km/h', '../public/images/jardin/x750.jpg' ]
             ];
 
             foreach($tractores_jardin as $item){ ?>
@@ -49,9 +49,9 @@ require 'header_light.php';
 
             <?php
             $tractores_jardin = [
-                [ 'Z355E', '22 HP', '48" (122 cm)', 'Hidrostático', '11,2 km/h', '../public/images/jardin/z355e.webp' ],
-                [ 'Z540M', '24 HP', '48" (122 cm)', 'Hidrostático', '13,7 km/h', '../public/images/jardin/z540m.webp' ],
-                [ 'Z950M', '27 HP', '60” (152 cm)', 'Hidrostático', '16,1 km/h', '../public/images/jardin/z950m.webp' ],
+                [ 'Z355E', '22 HP', '48" (122 cm)', 'Hidrostático', '11,2 km/h', '../public/images/jardin/z355e.jpg' ],
+                [ 'Z540M', '24 HP', '48" (122 cm)', 'Hidrostático', '13,7 km/h', '../public/images/jardin/z540m.jpg' ],
+                [ 'Z950M', '27 HP', '60” (152 cm)', 'Hidrostático', '16,1 km/h', '../public/images/jardin/z950m.jpg' ],
             ];
 
             foreach($tractores_jardin as $item){ ?>

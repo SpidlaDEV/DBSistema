@@ -63,7 +63,7 @@ switch ($_GET["op"]) {
                 "1" => $reg->nombre,
                 "2" => $reg->marca,
                 "3" => $reg->categoria,
-                "4" => $reg->codigo,
+                "4" => $reg->descripcion,
                 "5" => $reg->stock,
                 "6" => "<img src='../public/files/articulos/" . $reg->imagen . "' height='50px' width='50px' >",
                 "7" => ($reg->condicion) ? '<span class="label bg-green">Activado</span>' :
@@ -75,6 +75,7 @@ switch ($_GET["op"]) {
             "iTotalRecords" => count($data), //enviamos el total registros al datatable
             "iTotalDisplayRecords" => count($data), //enviamos el total registros a visualizar
             "aaData" => $data);
+
         echo json_encode($results);
 
         break;

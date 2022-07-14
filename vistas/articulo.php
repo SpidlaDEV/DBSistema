@@ -24,7 +24,7 @@ require 'header.php';
                             <th>Modelo</th>
                             <th>Marca</th>
                             <th>Categoría</th>
-                            <th>Código</th>
+                            <th>Descripción</th>
                             <th>Stock</th>
                             <th>Imagen</th>
                             <th>Estado</th>
@@ -36,7 +36,7 @@ require 'header.php';
                             <th>Modelo</th>
                             <th>Categoría</th>
                             <th>Marca</th>
-                            <th>Código</th>
+                            <th>Descripción</th>
                             <th>Stock</th>
                             <th>Imagen</th>
                             <th>Estado</th>

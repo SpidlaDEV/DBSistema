@@ -88,8 +88,8 @@ function listar()
                     }
                 },
         "bDestroy": true,
-        "iDisplayLength": 5,//Paginación
-        "order": [[ 0, "desc" ]]//Ordenar (columna,orden)
+        "iDisplayLength": 10,//Paginación
+        "order": [[ 1, "desc" ]]//Ordenar (columna,orden)
     }).DataTable();
 }
 //Función para guardar o editar

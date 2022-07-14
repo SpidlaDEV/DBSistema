@@ -10,12 +10,12 @@ require 'header_light.php';
 <!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>-->
 
 <div class="vid-container">
-    <video id="vid1" class="bgvid" autoplay="autoplay" muted="muted" preload="auto" loop poster="../public/images/tractor/6115j.webp">
+    <video id="vid1" class="bgvid" autoplay="autoplay" muted="muted" preload="auto" loop poster="../public/images/tractor/6115j.jpg">
         <source src="../public/video/Clip%2050%20años_360p.mp4#t=60" type="video/mp4" >
         Tu navegador no admite el elemento <code>video</code>.
     </video>
     <div class="inner-container">
-        <video class="bgvid inner" autoplay="autoplay" muted="muted" preload="auto" loop poster="../public/images/tractor/6115j.webp">
+        <video class="bgvid inner" autoplay="autoplay" muted="muted" preload="auto" loop poster="../public/images/tractor/6115j.jpg">
             <source src="https://mazwai.com/videvo_files/video/free/2015-09/small_watermarked/postcard_from_big_sur_preview.webm?random=1" type="video/webm">
             Tu navegador no admite el elemento <code>video</code>.
         </video>

@@ -9,12 +9,12 @@ require 'header_light.php';
     <section class="cards" style="margin: 30px;">
         <?php
             $tractores = [
-                    ['6100E',               'John Deere 4045T PowerTech™','97 hp',  '24A / 12R PowrReverser™ Plus',          '540/1000 rpm',  'Centro abierto, 72,3 L/min',      'Cat II,  3420 Kg  a 610 mm.', '../public/images/tractor/6100e.webp'],
+                    ['6100E',               'John Deere 4045T PowerTech™','97 hp',  '24A / 12R PowrReverser™ Plus',          '540/1000 rpm',  'Centro abierto, 72,3 L/min',      'Cat II,  3420 Kg  a 610 mm.', '../public/images/tractor/6100e.jpg'],
                     ['6110E',               'John Deere 4045T PowerTech™','106 hp', '24A / 12R PowrReverser™ Plus',          '540/1000 rpm',  'Centro abierto, 72,3 L/min',      'Cat II,  3420 Kg  a 610 mm.', '../public/images/tractor/6110e.jpg' ],
-                    ['6125E',               'John Deere 4045H PowerTech™','123 hp', '24A / 12R PowrReverser™ Plus',          '540/1000 rpm',  'Centro abierto, 72,3 L/min',      'Cat II,  3420 Kg  a 610 mm.', '../public/images/tractor/6125e.webp' ],
-                    ['6115J',               'John Deere PowerTech™ 4045T','115 hp', 'PowrQuad™ 16x16 o SyncroPlus de 12x4',  '540/1000 rpm',  'De centro cerrado de 100 L/min',  'Cat II,  2500 kgf a 610 mm.', '../public/images/tractor/6115j.webp' ],
-                    ['6135J',               'John Deere PowerTech™ 6068T','135 hp', 'PowrQuad™ 16/16',                       '540/1000 rpm',  'De centro cerrado de 100 L/min',  'Cat II,  2500 kgf a 610 mm.', '../public/images/tractor/6135j.webp' ],
-                    ['Nuevo modelo 6135M',  'John Deere PowerTech™ 6068T','135 hp', 'CommandQuad™ 20x20',                    '540/1000 rpm',  'De centro cerrado de 110 L/min',  'Cat II,  2550 kgf a 610 mm.', '../public/images/tractor/6135m.webp' ],
+                    ['6125E',               'John Deere 4045H PowerTech™','123 hp', '24A / 12R PowrReverser™ Plus',          '540/1000 rpm',  'Centro abierto, 72,3 L/min',      'Cat II,  3420 Kg  a 610 mm.', '../public/images/tractor/6125e.jpg' ],
+                    ['6115J',               'John Deere PowerTech™ 4045T','115 hp', 'PowrQuad™ 16x16 o SyncroPlus de 12x4',  '540/1000 rpm',  'De centro cerrado de 100 L/min',  'Cat II,  2500 kgf a 610 mm.', '../public/images/tractor/6115j.jpg' ],
+                    ['6135J',               'John Deere PowerTech™ 6068T','135 hp', 'PowrQuad™ 16/16',                       '540/1000 rpm',  'De centro cerrado de 100 L/min',  'Cat II,  2500 kgf a 610 mm.', '../public/images/tractor/6135j.jpg' ],
+                    ['Nuevo modelo 6135M',  'John Deere PowerTech™ 6068T','135 hp', 'CommandQuad™ 20x20',                    '540/1000 rpm',  'De centro cerrado de 110 L/min',  'Cat II,  2550 kgf a 610 mm.', '../public/images/tractor/6135m.jpg' ],
                     ['6150J',               'John Deere PowerTech™ 6068T','150 hp', 'PowrQuad 16/16',                        '540/1000 rpm',  'De centro cerrado de 100 L/min',  'Cat III, 3580 kgf a 610 mm.', '../public/images/tractor/6150j.jpg' ],
             ];
 
@@ -60,7 +60,7 @@ require 'header_light.php';
         <?php
         $cosechadoras = [
             ['S760', 'Motor PowerTech™ PSS de 9 L',     '320 hp', '30/35 pies (Sinfín o FlexDraper)',   '10.600 L', '116 L/seg', 'De Serie', 'Suscripción gratuita por un año', 'Opcional', 'Opcional', '-',         '../public/images/cosechadora/s760.jpg'  ],
-            ['S770', 'Motor PowerTech™ PSS de 9 L',     '373 hp', '35/40 pies (Sinfín o FlexDraper)',   '11.600 L', '135 L/sec', 'De Serie', 'Suscripción gratuita por un año', 'Opcional', 'Opcional', 'Opcional',  '../public/images/cosechadora/s770.webp' ],
+            ['S770', 'Motor PowerTech™ PSS de 9 L',     '373 hp', '35/40 pies (Sinfín o FlexDraper)',   '11.600 L', '135 L/sec', 'De Serie', 'Suscripción gratuita por un año', 'Opcional', 'Opcional', 'Opcional',  '../public/images/cosechadora/s770.jpg' ],
             ['S780', 'Motor PowerTech™ PSS de 13.5 L',  '473 hp', '40/45 pies (FlexDraper)',            '14.100 L', '135 L/seg', 'De Serie', 'Suscripción gratuita por un año', 'De Serie', 'Opcional', 'De Serie',  '../public/images/cosechadora/s780.jpg'  ],
             ['S790', 'Motor PowerTech™ PSS de 13.5 L',  '543 hp', '45 pies (FlexDraper)',               '14.100 L', '135 L/seg', 'De Serie', 'Suscripción gratuita por un año', 'De Serie', 'Opcional', 'De Serie',  '../public/images/cosechadora/s790.jpg'  ],
         ];
@@ -114,7 +114,7 @@ require 'header_light.php';
         <article class="card">
             <a href="Jardin.php" style="color: #5d5e5e; text-decoration: none;">
                 <picture>
-                    <img height="160" class="category__01" src="../public/images/jardin/z355e.webp" alt=""/>
+                    <img height="160" class="category__01" src="../public/images/jardin/z355e.jpg" alt=""/>
                 </picture>
                 <div class="card-content">
                     <h2 class="text-bold">John Deere Equipos de Jardín</h2>

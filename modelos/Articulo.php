@@ -49,7 +49,7 @@ Class Articulo
     //Implementar un método para listar los registros
     public function listar()
     {
-        $sql="SELECT a.idarticulo,a.idcategoria, a.idmarca, c.nombre as categoria, m.nombre as marca , a.codigo,a.nombre,a.stock,a.descripcion,a.imagen,a.condicion FROM articulo a INNER JOIN categoria c ON a.idcategoria=c.idcategoria, articulo aa INNER JOIN marca m on aa.idmarca = m.idmarca";
+        $sql="SELECT a.idarticulo,a.idcategoria, a.idmarca, c.nombre as categoria, m.nombre as marca , a.codigo,a.nombre,a.stock,a.descripcion,a.imagen,a.condicion FROM articulo a INNER JOIN categoria c ON a.idcategoria=c.idcategoria INNER JOIN marca m on a.idmarca = m.idmarca";
         return ejecutarConsulta($sql);   
 
 

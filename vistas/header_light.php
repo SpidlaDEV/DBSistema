@@ -49,7 +49,7 @@
 
                 <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
-                    <a href="../vistas/login.php" style="font-size: 15px; text-decoration: none; color: black;">
+                    <a href="../vistas/desk.php" style="font-size: 15px; text-decoration: none; color: black;">
                         <span class="hidden-xs">Iniciar Sesión</span>
                     </a>
                 </li>

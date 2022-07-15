@@ -15,8 +15,8 @@
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="../public/css/_all-skins.min.css">
-    <link rel="apple-touch-icon" href="../public/img/apple-touch-icon.png">
-    <link rel="shortcut icon" href="../public/img/favicon.ico">
+    <link rel="apple-touch-icon" href="../public/img/logo.ico">
+    <link rel="shortcut icon" href="../public/img/logo.ico">
 
     <!--Datatables-->
     <link rel="stylesheet" type="text/css" href="../public/datatables/jquery.dataTables.min.css">
@@ -33,11 +33,18 @@
     <header class="main-header">
 
         <!-- Logo -->
-        <a href="index.php" class="logo">
+        <a href="desk.php" class="logo" style="text-decoration: none; color: #367c2b; font-weight: bold;">
+
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>IT</b>Ventas</span>
+            <span class="logo-mini">
+                <img src="../public/img/logo.png" alt="logo" width="30" style="padding-bottom: 6px;">
+                John Deere
+            </span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>ITVentas</b></span>
+            <span class="logo-lg">
+                <img src="../public/img/logo.png" alt="logo" width="30" style="padding-bottom: 6px;">
+                John Deere
+            </span>
         </a>
 
         <!-- Header Navbar: style can be found in header.less -->
@@ -54,16 +61,16 @@
                     <!-- User Account: style can be found in dropdown.less -->
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                            <span class="hidden-xs">Gustavo Ariel Paszco</span>
+                            <img src="../public/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                            <span class="hidden-xs">Spidla, Jose Alexis</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
                             <li class="user-header">
                                 <img src="../public/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                                 <p>
-                                    Lic. Paszco - Desarrollando Software
-                                    <small>www.uncaus.edu.ar</small>
+                                    Spidla, Jose Alexis - Desarrollando Software
+                                    <small><a href="https://www.linkedin.com/in/alex-spidla/">SpidlaDEV</a></small>
                                 </p>
                             </li>
 

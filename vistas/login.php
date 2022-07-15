@@ -30,9 +30,9 @@ require 'header_light.php';
 
 <style>
     .vid-container{
-        margin-top: 5%;
+        margin-top: 4%;
         position:relative;
-        height:100vh;
+        height:112vh;
         /*overflow:hidden;*/
     }
     .bgvid{

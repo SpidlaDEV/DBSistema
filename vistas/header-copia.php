@@ -55,7 +55,7 @@
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                  <span class="hidden-xs">Gustavo Ariel Paszco</span>
+                  <span class="hidden-xs">Spidla, Jose Alexis</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->

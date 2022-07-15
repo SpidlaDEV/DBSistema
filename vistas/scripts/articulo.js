@@ -134,8 +134,7 @@ function mostrar(idarticulo)
         $("#nombre").val(data.nombre);
         $("#stock").val(data.stock);
         $("#descripcion").val(data.descripcion);
-        $("#imagenmuestra").show();
-        $("#imagenmuestra").attr("src","../public/files/articulos/"+data.imagen);
+        $("#imagenmuestra").show().attr("src","../public/files/articulos/"+data.imagen);
         $("#imagenactual").val(data.imagen);
         $("#idarticulo").val(data.idarticulo);
         generarbarcode();

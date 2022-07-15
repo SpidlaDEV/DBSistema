@@ -249,9 +249,5 @@ require 'footer.php';
     .post-meta {
         margin-top: .5rem;
     }
-
-    .comments {
-        margin-left: .5rem;
-    }
 </style>
 

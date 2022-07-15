@@ -2,6 +2,7 @@
 //Activamos el almacenamiento en el buffer
 require 'header_light.php';
 ?>
+<title>John Deere | Agricultura</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <div class="agricultura" style="text-align: center;">
     <h1 class="text-bold" style="font-size: 150px; color: #367c2b">John Deere <span class="font-light" style="color: #000000">Agricultura</span></h1>

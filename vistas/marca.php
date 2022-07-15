@@ -4,6 +4,7 @@ require 'header.php';
 ?>
 <!--Contenido-->
 <!-- Content Wrapper. Contains page content -->
+<title>John Deere | Marcas</title>
 <div class="content-wrapper">
     <!-- Main content -->
     <section class="content">

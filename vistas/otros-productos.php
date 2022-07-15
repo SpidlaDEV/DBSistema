@@ -2,6 +2,7 @@
 //Activamos el almacenamiento en el buffer
 require 'header_light.php';
 ?>
+<title>John Deere | Otros Productos</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.0/css/foundation.min.css">
     <div class="panel-shop-content grid-container large-9 medium-12 small-12">
         <div class="panel-shop-game-wrapper cell large-9 medium-12 small-12">

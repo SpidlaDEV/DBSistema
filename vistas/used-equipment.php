@@ -6,3 +6,5 @@ require 'components/404.php';
 
 require 'footer.php';
 ?>
+
+<title>John Deere | Usados</title>

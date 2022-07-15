@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>John Deere</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -28,26 +27,22 @@
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
 
-    <header class="main-header border-bottom border-warning border-5">
+    <header class="main-header">
+        <div class="border-bottom border-success border-5"></div>
+        <div class="border-bottom border-warning border-5"></div>
         <!-- Logo -->
         <a href="index.php" class="logo" style="text-decoration: none; color: #367c2b; font-weight: bold;">
-
-            <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini">
-                <img src="../public/img/logo.png" alt="logo" width="30" style="padding-bottom: 6px;">
+                <img src="../public/img/logo.png" alt="logo" width="35">
                 John Deere
             </span>
-            <!-- logo for regular state and mobile devices -->
             <span class="logo-lg">
-                <img src="../public/img/logo.png" alt="logo" width="30" style="padding-bottom: 6px;">
+                <img src="../public/img/logo.png" alt="logo" width="35">
                 John Deere
             </span>
         </a>
         <div class="navbar-custom-menu">
             <ul class="nav navbar-nav">
-                <!-- Messages: style can be found in dropdown.less-->
-
-                <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
                     <a href="../vistas/desk.php" style="font-size: 15px; text-decoration: none; color: black;">
                         <span class="hidden-xs">Iniciar Sesión</span>
@@ -57,7 +52,6 @@
         </div>
 
         <!-- Header Navbar: style can be found in header.less -->
-        <div class="border-bottom border-success border-5"></div>
 
         <?php
         require dirname(__DIR__) . "/vistas/components/index/navBar.php"

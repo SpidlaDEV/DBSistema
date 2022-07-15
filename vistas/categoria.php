@@ -1,6 +1,7 @@
 <?php
 require 'header.php';
 ?>
+<title>John Deere | Categorías</title>
 <!--Contenido-->
       <!-- Content Wrapper. Contains page content -->
       <div class="content-wrapper">        

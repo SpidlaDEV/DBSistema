@@ -2,6 +2,7 @@
 //Activamos el almacenamiento en el buffer
 require 'header_light.php';
 ?>
+<title>John Deere | Drive Green Events</title>
 <div class="news-release-container">
     <div class="news-release">
         <h2 class="news-release-headline">John&nbsp;Deere presenta tres modelos de estructura pequeña para la línea de tractores de la serie 6R</h2>

@@ -1,6 +1,7 @@
 <?php
 require 'header_light.php';
 ?>
+<title>John Deere | Contactos</title>
 <div id="contacto">
     <div class="container">
         <form id="contact" action="https://www.youtube.com/watch?v=mCdA4bJAGGk" method="post" target="_blank">

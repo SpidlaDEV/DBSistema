@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ITVentas | www.uncaus.edu.ar</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -68,17 +67,15 @@
                             <!-- User image -->
                             <li class="user-header">
                                 <img src="../public/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-                                <p>
+                                <p style="color: #000000">
                                     Spidla, Jose Alexis - Desarrollando Software
-                                    <small><a href="https://www.linkedin.com/in/alex-spidla/">SpidlaDEV</a></small>
+                                    <small class="text-bold"><a href="https://www.linkedin.com/in/alex-spidla/" target="_blank">SpidlaDEV</a></small>
                                 </p>
                             </li>
-
                             <!-- Menu Footer-->
                             <li class="user-footer">
-
                                 <div class="pull-right">
-                                    <a href="#" class="btn btn-default btn-flat">Cerrar</a>
+                                    <a href="index.php" class="btn btn-default btn-flat">Cerrar Sesión</a>
                                 </div>
                             </li>
                         </ul>

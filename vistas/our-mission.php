@@ -2,6 +2,7 @@
 //Activamos el almacenamiento en el buffer
 require 'header_light.php';
 ?>
+<title>John Deere | Nuestra Historia</title>
 <div>
     <div class="contenedor de líquido">
         <img class="img-mission"

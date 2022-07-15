@@ -2,12 +2,13 @@
 //Activamos el almacenamiento en el buffer
 require 'header_light.php';
 ?>
+<title>John Deere | Ubicaciones</title>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
 <h1 style="font-size:50px; text-align: center; padding-top: 100px; color: rgba(54, 124, 43, 1);">Ubicaciones</h1>
 <div id="pattern" class="pattern">
     <div class="map">
-        <a href="https://maps.google.com/maps?q=Pittsburgh,+PA&hl=en&sll=40.697488,-73.979681&sspn=0.667391,1.447449&oq=Pittsburgh&hnear=Pittsburgh,+Allegheny,+Pennsylvania&t=m&z=12"
-           class="btn-map">Ver en el mapa</a>
+        <a href="https://goo.gl/maps/TD6VdcvzQTZnUZYy8"
+            target="_blank" class="btn-map">Ver en el mapa</a>
     </div>
 </div>
 <?php
@@ -22,8 +23,8 @@ require 'footer.php';
     var sw = document.body.clientWidth,
         bp = 550,
         $map = $('.map');
-    var lugarFijo = "https://goo.gl/maps/xBDUf6h7bDMi9DUr8";
-    var embed = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4713.6144825200945!2d-60.43715054703782!3d-26.785744016777073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94412d1c14ba7d7b%3A0x3f41780d9ada61c!2sDerka%20y%20Vargas!5e0!3m2!1ses-419!2sar!4v1657755370213!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+    var lugarFijo = "https://goo.gl/maps/TD6VdcvzQTZnUZYy8";
+    var embed = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4691.101712468167!2d-60.44478873089099!3d-26.788128311532855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94412d6ce3dca5d5%3A0x2f006bf5622b5015!2sAndres%20Parra%20y%20CIA%20-%20Concesionario%20John%20Deere!5e0!3m2!1ses-419!2sar!4v1657850012010!5m2!1ses-419!2sar" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
 
     function buildMap() {
         if (sw > bp) { //If Large Screen
@@ -67,7 +68,8 @@ require 'footer.php';
         display: inline-block;
         padding: 0.5em 1em;
         background: #808080;
-        color: #fff;
+        color: #fff !important;
+        text-decoration: none;
         font-size: 15px;
         margin: 2em;
 

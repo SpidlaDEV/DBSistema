@@ -2,6 +2,7 @@
 //Activamos el almacenamiento en el buffer
 require 'header.php';
 ?>
+<title>John Deere | Proveedores</title>
 <!--Contenido-->
       <!-- Content Wrapper. Contains page content -->
       <div class="content-wrapper">        

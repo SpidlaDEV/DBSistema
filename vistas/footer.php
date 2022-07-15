@@ -1,5 +1,5 @@
 <footer style="text-align: center; padding: 30px; font-size: 15px; background: #477626">
-    <strong>Copyright &copy;2022 <a href="https://www.linkedin.com/in/alex-spidla/" style="text-decoration: none; color: #ffff00">SpidlaDEV</a>.</strong> Hecho con 💖
+    <strong>Copyright &copy;2022 <a href="https://www.linkedin.com/in/alex-spidla/" target="_blank" style="text-decoration: none; color: #ffff00">SpidlaDEV</a>.</strong> Hecho con 💖
 </footer>
 <!-- jQuery 2.1.4 -->
 <script src="../public/js/jquery-3.1.1.min.js"></script>

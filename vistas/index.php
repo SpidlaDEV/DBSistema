@@ -3,9 +3,7 @@
 require 'header_light.php';
 ?>
     <title>John Deere</title>
-<div style="padding: 100px;">
-
-</div>
 <?php
+require 'components/index/parallax_scroll.php';
 require 'footer.php';
 ?>

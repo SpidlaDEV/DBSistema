@@ -2,7 +2,12 @@
 require 'header_light.php';
 ?>
 <title>John Deere | Contactos</title>
-<div id="contacto">
+
+<div class="vid-container">
+    <video class="bgvid" autoplay="autoplay" muted="muted" preload="auto" loop poster="../public/images/tractor/6115j.jpg">
+        <source src="../public/video/Clip%2050%20años_360p.mp4#t=170" type="video/mp4" >
+        Tu navegador no admite el elemento <code>video</code>.
+    </video>
     <div class="container">
         <form id="contact" action="https://www.youtube.com/watch?v=mCdA4bJAGGk" method="post" target="_blank">
             <h3>John Deere aguarda su consulta</h3>
@@ -11,7 +16,7 @@ require 'header_light.php';
                 <input placeholder="Apellido, Nombre" type="text" tabindex="1" required autofocus>
             </fieldset>
             <fieldset>
-                    <input placeholder="Correo electrónico" type="email" tabindex="2" required>
+                <input placeholder="Correo electrónico" type="email" tabindex="2" required>
             </fieldset>
             <fieldset>
                 <input placeholder="Número de teléfono (Opcional)" type="tel" tabindex="3">
@@ -27,15 +32,64 @@ require 'header_light.php';
             </fieldset>
         </form>
     </div>
+</div>
     <?php
     require 'footer.php';
     ?>
-</div>
 
-<script>
-</script>
+<style>
+    .vid-container{
+        margin-top: 4%;
+        position:relative;
+        height:112vh;
+    }
+    .bgvid{
+        position:absolute;
+        left:0;
+        top:0;
+        align-content: center;
+        height:100%;
+    }
+    .box h1{
+        text-align:center;
+        margin:30px 0;
+        font-size:30px;
+    }
+    .box input{
+        display:block;
+        width:300px;
+        margin:20px auto;
+        padding:15px;
+        background:rgba(0,0,0,0.2);
+        color:#fff;
+        border:0;
+    }
+    .box input:focus,.box input:active,.box button:focus,.box button:active{
+        outline:none;
+    }
+    .box button{
+        background:#2ecc71;
+        border:0;
+        color:#fff;
+        padding:10px;
+        font-size:20px;
+        width:330px;
+        margin:20px auto;
+        display:block;
+        cursor:pointer;
+    }
+    .box button:active{
+        background:#27ae60;
+    }
+    .box p{
+        font-size:14px;
+        text-align:center;
+    }
+    .box p span{
+        cursor:pointer;
+        color:#666;
+    }
 
-<style lang="css">
     .container {
         max-width: 500px;
         width: 100%;

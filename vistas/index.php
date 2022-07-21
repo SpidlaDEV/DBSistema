@@ -7,5 +7,6 @@ require 'header_light.php';
 require 'components/index/parallax_scroll.php';
 require 'components/index/expanding_gallery.php';
 require 'components/index/video_gallery.php';
+
 require 'footer.php';
 ?>

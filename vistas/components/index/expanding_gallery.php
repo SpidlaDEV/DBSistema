@@ -11,7 +11,6 @@
 
 <style lang="css">
     @import "https://unpkg.com/open-props";
-    @import "https://unpkg.com/open-props/normalize.min.css";
 
     .gallery-expand {
         box-sizing: border-box;
